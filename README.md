@@ -100,17 +100,96 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em Sprint
 
 <h2> 📑 Sprints </h2><a name="sprints"></a>
 
-| Sprint |   Início   |  Entrega   |                                      Relatório                                      | Status |
-| :----: | :--------: | :--------: | :---------------------------------------------------------------------------------: | :----: |
+| Sprint | Início     | Entrega    | Relatório            | Status |
+|--------|------------|------------|----------------------|--------|
 |   01   | 09/09/2024 | 29/09/2024 | <a> 1° Relatório </a> |   🔁   |
 |   02   | 30/09/2024 | 20/10/2024 | <a> 2° Relatório </a> |   ❌   |
 |   03   | 21/10/2023 | 10/11/2024 | <a> 3° Relatório </a> |   ❌   |
 |   04   | 11/11/2023 | 01/12/2023 | <a> 4° Relatório </a> |   ❌   |
 
 <br>
+</div>
+<h2 align="center"> DoR e DoD </h2><a name="doredod"></a>
 
-<h2> DoR e DoD </h2><a name="doredod"></a>
+# Definition of Ready (DoR) 
 
+### User Stories
+
+- User story devidamente priorizado e tem valor para o cliente/usuário.
+- A descrição do User story está clara e compreensível para todos os membros da equipe
+
+### Critérios de Aceitação 
+
+- Critérios de aceitação estão definidos e revisados
+- Especificações técnicas ou requisitos adicionais, se necessários, estão definidos
+
+### Estimativa 
+
+- O tamanho ou esforço estimado foi determinado pela equipe
+- A equipe de desenvolvimento e o Product Owner estão alinhados quanto às expectativas
+
+### Tarefas 
+
+- Recursos e permissões necessárias para implementação foram garantidos
+- O user story é pequeno o suficiente para ser concluído dentro
+
+# Definition of Ready (DoR) 
+
+### User Stories
+
+- User story devidamente priorizado e tem valor para o cliente/usuário.
+- A drescrição do User story está clara e compreensível para todos os membros da equipe
+
+### Critérios de Aceitação 
+
+- Critérios de aceitação estão definidos e revisados
+- Especificações técnicas ou requisitos adicionais, se necessários, estão definidos
+
+### Estimativa 
+
+- O tamanho ou esforço estimado foi determinado pela equipe
+- A equipe de desenvolvimento e o Product Owner estão alinhados quanto às expectativas
+
+### Tarefas 
+
+- Recursos e permissões necessárias para implementação foram garantidos
+- O user story é pequeno o suficiente para ser concluído dentro de uma sprint
+
+### Modelo de Dados
+
+- O modelo de dados está devidamente construído e de acordo com o escopo do projeto  
+<br>
+<br>
+
+# Definition of Done (DoD)
+
+### Código e Integração
+
+- O código foi implementado, revisado e integrado com sucesso no repositório principal.
+- O código foi revisado e aprovado por outro desenvolvedor ou pela equipe.
+
+### Critérios de Aceitação
+
+- Todos os critérios de aceitação definidos no user story foram atendidos.
+- A funcionalidade foi validada em ambientes diferentes (testes de responsividade, performance, dispositivos variados).
+- O user story foi revisado e aceito pelo Product Owner ou partes interessadas.
+
+### Testes e Qualidade
+
+- Os testes foram realizados, garantindo que o comportamento é o esperado.
+- Não há bugs conhecidos ou regressões, e o sistema permanece estável.
+
+### Documentação
+
+- A documentação técnica foi atualizada, caso seja necessário.
+- A documentação do usuário, se aplicável, foi criada ou atualizada (manual do usuário, guia de uso).
+
+### Implantação e Feedback
+
+- A funcionalidade foi implantada em produção, se aplicável, e está funcionando corretamente.
+- Feedback pós-implementação, se aplicável, foi coletado e considerado.
+
+<div align="center">
 <h2> Padrão de Commit </h2><a name="padraocommit"></a>
 
 | Prefixo |   Função  |  Exemplo  |
