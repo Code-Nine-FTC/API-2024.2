@@ -123,10 +123,6 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em Sprint
 - Critérios de aceitação estão definidos e revisados
 - Especificações técnicas ou requisitos adicionais, se necessários, estão definidos
 
-### Estimativa 
-
-- O tamanho ou esforço estimado foi determinado pela equipe
-- A equipe de desenvolvimento e o Product Owner estão alinhados quanto às expectativas
 
 ### Tarefas 
 
@@ -144,11 +140,6 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em Sprint
 
 - Critérios de aceitação estão definidos e revisados
 - Especificações técnicas ou requisitos adicionais, se necessários, estão definidos
-
-### Estimativa 
-
-- O tamanho ou esforço estimado foi determinado pela equipe
-- A equipe de desenvolvimento e o Product Owner estão alinhados quanto às expectativas
 
 ### Tarefas 
 
