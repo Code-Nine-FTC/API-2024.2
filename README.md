@@ -62,19 +62,19 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em Sprint
 
 | Número	| Requisito do Cliente |
 | --- | --- |
-| 1 | Ferramenta de importação de dados da aplicação legada no novo banco de dados projetado |
-| 2	| Interface para cadastro de novos projetos |
-| 3	| Interface de pesquisa de projetos |
-| 4	| Interface de cadastro de usuários |
+| 1 | Importar os dados dos projetos da ferramenta legado para o novo site |
+| 2	| Interface para cadastro de novos projetos onde esses possuirão apenas campos relacionados a planos de trabalho, contratos e termos aditivos |
+| 3	| Um mecanismo de busca para os projetos de uma forma que não separe por categoria como é feito no site antigo |
+| 4	| Criação de uma credencial pro usuário Administrador, que terá todas as permissões do site |
 | 5	| Relatórios/dashboards de projetos desenvolvidos, com diferentes tipos de filtros |
 
 <h3> Requisitos não funcionais </h3>
 
 | Número	| Requisito do Cliente |
 | --- | --- |
-| 1 | Manual do Usuário |
-| 2	| Software Web e Multiusuário |
-| 3	| Responsivo |
+| 1 | Manual do Usuário e Mapeamento de Endpoints |
+| 2	| Software Web |
+| 3	| Responsividade para uma melhor experiência do usuário |
 | 4	| Segurança da Informação |
 
 <br>
@@ -128,27 +128,7 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em Sprint
 
 - Recursos e permissões necessárias para implementação foram garantidos
 - O user story é pequeno o suficiente para ser concluído dentro
-
-# Definition of Ready (DoR) 
-
-### User Stories
-
-- User story devidamente priorizado e tem valor para o cliente/usuário.
-- A drescrição do User story está clara e compreensível para todos os membros da equipe
-
-### Critérios de Aceitação 
-
-- Critérios de aceitação estão definidos e revisados
-- Especificações técnicas ou requisitos adicionais, se necessários, estão definidos
-
-### Tarefas 
-
-- Recursos e permissões necessárias para implementação foram garantidos
-- O user story é pequeno o suficiente para ser concluído dentro de uma sprint
-
-### Modelo de Dados
-
-- O modelo de dados está devidamente construído e de acordo com o escopo do projeto  
+  
 <br>
 <br>
 
