@@ -79,23 +79,31 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em Sprint
 
 <br>
 
+# Proposta de Solução
+Para otimizar a gestão e apresentação dos dados dos projetos, propomos a implementação de um sistema que permita a padronização automática das informações. Nossa solução incluirá os seguintes recursos:
+	
+Padronização de Dados: Desenvolveremos um modelo uniforme para os dados dos projetos, garantindo que todas as informações sejam consistentes e de fácil compreensão.
+
+Integração com o Banco de Dados: Quando arquivos Excel ou PDF forem carregados no site, o sistema extrairá e processará os dados automaticamente, enviando-os diretamente para o banco de dados. Isso garantirá que todas as informações estejam sempre atualizadas e centralizadas.
+Estamos à disposição para discutir mais detalhes e personalizar a solução de acordo com suas necessidades específicas.
+
 <h2> 📒 Product Backlog </h2><a name="productbacklog"></a>
 
-| Id | Prioridade | Tarefas | Estimativa | Requisito do Cliente |
-| --- | --- | --- | --- | --- |
-| 1 | Alta  | Como Administrador, eu quero criar um projeto e vincular um login de Coordenador ao mesmo tempo, para que o Coordenador tenha acesso imediato ao projeto e possa gerenciá-lo de forma autônoma desde o início. | 5 | 2 |
-| 2 | Alta  | Como Usuário, eu quero ter a possibilidade de buscar  projetos com um filtro, para que eu possa encontrar de forma mais precisa e rápida os projetos que atendem aos meus critérios de interesse. | 3 | 3 |
-| 3 | Alta  | Como Administrador, eu quero ser capaz de enviar, editar ou excluir todos os projetos, para que eu consiga administrar o portal de transparência. | 3 | 2 |
-| 4 | Alta  | Como Coordenador, eu quero poder realizar login no sistema utilizando e-mail e senha, para que eu possa acessar as funcionalidades de maneira segura. | 3 | 3 |
-| 5 | Alta  | Como Administrador, eu quero realizar login no sistema utilizando e-mail e senha, para que eu possa acessar as funcionalidades administrativas de maneira segura. | 3 | 3 |
+| Id | Prioridade | Tarefas | Estimativa | Requisito do Cliente | Critério de Aceitação |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Alta  | Como Administrador, eu quero criar um projeto para o site de tranparência, para que o Usuário possa visualizar todos os detalhes do projeto. | 5 | 2 | Somente o Administrador poderá criar novos projetos, devendo preencher todas as informações relevantes para garantir maior transparência ao Usuário. |
+| 2 | Alta  | Como Usuário, eu quero ter a possibilidade de buscar  projetos com um filtro, para que eu possa encontrar de forma mais precisa e rápida os projetos que atendem aos meus critérios de interesse. | 3 | 3 | Prévia com informações básicas do projeto para maior facilidade do Usuário ao visualizar o projeto |
+| 3 | Alta  | Como Administrador, eu quero ser capaz de enviar, editar ou excluir todos os projetos, para que eu consiga administrar o portal de transparência. | 3 | 2 | O Administrador deve ter todas as permissões para manipular o projeto |
+| 4 | Alta  | Como Coordenador, eu quero poder realizar login no sistema utilizando e-mail e senha, para que eu possa acessar as funcionalidades de maneira segura. | 3 | 3 | 
+| 5 | Alta  | Como Administrador, eu quero realizar login no sistema utilizando e-mail e senha, para que eu possa acessar as funcionalidades administrativas de maneira segura. | 3 | 3 | O Administrador deve ter credenciais protegidas para conseguir efetuar o login sem vazamentos de dados |
 | 6 | Alta  | Como Administrador, eu quero poder cadastrar Coordenadores, para que eles tenham maior autonomia sobre os dados exibidos em seus respectivos projetos. | 3 | 3 |
-| 7 | Alta  | Como Usuário, eu quero poder visualizar os detalhes relacionado ao projeto, para que eu possa entender o andamento e o progresso do projeto de forma clara e objetiva. | 3 | 4 |
-| 8 | Alta  | Como Administrador, eu quero poder visualizar os detalhes e os relatórios relacionado ao projeto, para que eu possa monitorar o andamento e manter o site atualizado sem modificar o conteúdo ou interferir nas decisões dos projetos. | 3 | 2 |
-| 9 | Alta  | Como Administrador, eu quero transformar os dados da ferramenta legado, para que esses dados sejam compatíveis e utilizáveis no novo sistema, permitindo a continuidade dos processos e projetos. | 4 | 1 |
-| 10 | Média | Como Usuário, eu quero ter acesso a um dashboard centralizado, para que eu possa visualizar de forma clara e rápida as informações mais relevantes sobre os projetos. | 6 | 4 |
-| 11 | Média | Como Administrador, eu quero importar projetos em formato PDF e/ou Excel dos dados da aplicação legada no novo banco de dados, para que todos os dados históricos e ativos sejam migrados corretamente para o novo sistema e possam ser acessados e gerenciados no portal atualizado. | 6 | 1 |
-| 12 | Média | Como Administrador, eu quero transformar as informações do Banco de Dados em arquivos do formato do PDF e/ou Excel, para que eu possa compartilhar, armazenar e analisar os dados de maneira eficiente e compatível com outras ferramentas. | 6 | 1 |
-| 13 | Baixa | Como Usuário, eu quero que o site tenha um design responsivo, para que eu possa acessá-lo e utilizá-lo confortavelmente em qualquer dispositivo, seja desktop, tablet ou celular. | 2 | 3 |
+| 7 | Alta  | Como Usuário, eu quero poder visualizar os detalhes relacionado ao projeto, para que eu possa entender o andamento e o progresso do projeto de forma clara e objetiva. | 3 | 4 | Criação de uma página de visualizar um projeto em específico onde irá conter todas as informações referentes ao projeto |
+| 8 | Alta  | Como Administrador, eu quero poder visualizar os detalhes e os relatórios relacionado ao projeto, para que eu possa monitorar o andamento e manter o site atualizado sem modificar o conteúdo ou interferir nas decisões dos projetos. | 3 | 2 | Criação de uma página de visualizar um projeto em específico onde irá conter todas as informações referentes ao projeto |
+| 9 | Alta  | Como Administrador, eu quero transformar os dados da ferramenta legado, para que esses dados sejam compatíveis e utilizáveis no novo sistema, permitindo a continuidade dos processos e projetos. | 4 | 1 | As informações dos projetos do Site Legado deverá ser importado ao novo sistema |
+| 10 | Média | Como Usuário, eu quero ter acesso a um dashboard centralizado, para que eu possa visualizar de forma clara e rápida as informações mais relevantes sobre os projetos. | 6 | 4 | Dashboard contendo as informações da situação de todos os projetos |
+| 11 | Média | Como Administrador, eu quero importar projetos em formato PDF e/ou Excel dos dados da aplicação legada no novo banco de dados, para que todos os dados históricos e ativos sejam migrados corretamente para o novo sistema e possam ser acessados e gerenciados no portal atualizado. | 6 | 1 | As informações dos projetos do Site Legado deverá ser importado ao novo sistema |
+| 12 | Média | Como Administrador, eu quero transformar as informações do Banco de Dados em arquivos do formato do PDF e/ou Excel, para que eu possa compartilhar, armazenar e analisar os dados de maneira eficiente e compatível com outras ferramentas. | 6 | 1 | Na página de visualização do projeto o Administrador poderá anexar um Arquivo PDF ou Excel |
+| 13 | Baixa | Como Usuário, eu quero que o site tenha um design responsivo, para que eu possa acessá-lo e utilizá-lo confortavelmente em qualquer dispositivo, seja desktop, tablet ou celular. | 2 | 3 | O site deverá ser responsível para Mobile, Desktop |
 <br>
 
 <h2> 📑 Sprints </h2><a name="sprints"></a>
@@ -123,12 +131,12 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em Sprint
 - Critérios de aceitação estão definidos e revisados
 - Especificações técnicas ou requisitos adicionais, se necessários, estão definidos
 
-
 ### Tarefas 
 
 - Recursos e permissões necessárias para implementação foram garantidos
-- O user story é pequeno o suficiente para ser concluído dentro
-  
+- O user story é pequeno o suficiente para ser concluído dentro de uma sprint
+
+
 <br>
 <br>
 
@@ -180,6 +188,5 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em Sprint
 | <img src="https://avatars.githubusercontent.com/u/142221848?v=4" alt="foto de perfil" height="64px" width="64px">         |   Jonas Miguel |  Developer        | <a href="https://github.com/Jonasoliver"><img src="https://img.shields.io/badge/GitHub-13196a?style=for-the-badge&logo=github&logoColor=white">         | <a href="https://www.linkedin.com/in/jonas-miguel-ol"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>          |
 | <img src="https://avatars.githubusercontent.com/u/142221532?v=4" alt="foto de perfil" height="64px" width="64px">         |   Renato Júnior |  Developer        | <a href="https://github.com/Renato-Cruz-Jr"><img src="https://img.shields.io/badge/GitHub-13196a?style=for-the-badge&logo=github&logoColor=white">         | <a href="https://www.linkedin.com/in/renato-fernandes-da-cruz-junior-798582204/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>         |
 | <img src="https://avatars.githubusercontent.com/u/126177243?v=4" alt="foto de perfil" height="64px" width="64px">         |   Gustavo Castilho |  Developer        | <a href="https://github.com/GustavoCastilhoLucena"><img src="https://img.shields.io/badge/GitHub-13196a?style=for-the-badge&logo=github&logoColor=white">         | <a href="https://www.linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>         |
-| <img src="https://media.licdn.com/dms/image/D4D03AQECpQ1TjLb7mQ/profile-displayphoto-shrink_200_200/0/1696098623322?e=2147483647&v=beta&t=DLisI-vHChLbCiEQ88konsGhNkt2i_LQhYzaJjjEeg4" alt="foto de perfil" height="64px" width="64px">         |   Eduardo Namiuti  |  Developer        | <a href="https://github.com/eduardofsn"><img src="https://img.shields.io/badge/GitHub-13196a?style=for-the-badge&logo=github&logoColor=white">         | <a href="https://br.linkedin.com/in/eduardo-namiuti-5641b627b"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 | <img src="https://avatars.githubusercontent.com/u/111767391?v=4" alt="foto de perfil" height="64px" width="64px">         |   Ivan Suiyama |  Developer        | <a href="https://github.com/IvanSuiyama"><img src="https://img.shields.io/badge/GitHub-13196a?style=for-the-badge&logo=github&logoColor=white">         | <a href="https://www.linkedin.com/in/ivan-silva-248042186/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>         |
 
