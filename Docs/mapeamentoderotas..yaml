@@ -1,0 +1,349 @@
+openapi: 3.0.0
+info:
+  title: API CodeNine | Portal de Transparência
+  description: API para o portal de transparência de uma fundação.
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+
+tags:
+  - name: Projeto
+    description: Endpoints relacionados à gestão de projetos
+  - name: Documento
+    description: Endpoints relacionados à gestão de documentos
+  - name: Administradores
+    description: Endpoints relacionados à gestão de administradores
+
+paths:
+  /projeto/listar:
+    get:
+      tags:
+        - Projeto
+      summary: Listar todos os projetos
+      description: Obtém uma lista de todos os projetos da fundação
+      requestBody:
+        required: false
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                referencia:
+                  type: string
+                nomeCoordenador:
+                  type: string
+                resumoPdf:
+                  type: string
+                dataInicio:
+                  type: string
+                dataTermino:
+                  type: string
+                valor:
+                  type: string
+      responses:
+        '200':
+          description: Lista de projetos retornada com sucesso
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    titulo:
+                      type: string
+                    referencia:
+                      type: string
+                    coordenador:
+                      type: string
+
+  /projeto/visualizar/{id}:
+    get:
+      tags:
+        - Projeto
+      summary: Obter detalhes sobre um projeto específico
+      description: Obtém detalhes de um projeto pelo seu ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+          description: ID do projeto
+      responses:
+        '200':
+          description: Detalhes do projeto retornados com sucesso
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  titulo:
+                    type: string
+                  referencia:
+                    type: string
+                  coordenador:
+                    type: string
+        '404':
+          description: Projeto não encontrado
+
+  /projeto/cadastrar:
+    post:
+      tags:
+        - Projeto
+      summary: Criar um projeto
+      description: Cadastra um novo projeto
+      parameters:
+        - in: header
+          name: Authorization
+          required: true
+          schema:
+            type: string
+          description: "Token de autenticação para acessar o endpoint. Formato: Bearer {token}"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                titulo:
+                  type: string
+                  example: "Título do projeto 2"
+                referencia:
+                  type: string
+                  example: "Referência 2"
+                coordenador:
+                  type: string
+                  example: "Nome do coordenador 2"
+                dataInicio:
+                  type: string
+                  format: date
+                  example: "2022-12-23"
+                contratante:
+                  type: string
+                  example: "Empresa S.A"
+      responses:
+        '201':
+          description: Projeto criado com sucesso
+        '403':
+          description: Token de autenticação não autorizado
+
+  /projeto/atualizar/{id}:
+    put:
+      tags:
+        - Projeto
+      summary: Atualizar um projeto existente
+      description: Atualiza um projeto já cadastrado.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+          description: ID do projeto a ser atualizado
+        - in: header
+          name: Authorization
+          required: true
+          schema:
+            type: string
+          description: "Token de autenticação para acessar o endpoint. Formato: Bearer {token}"
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                projeto:
+                  type: object
+                  properties:
+                    descricao:
+                      type: string
+                      example: "Descrição do projeto 2"
+                    referencia:
+                      type: string
+                      example: "Referência 2"
+                    dataTermino:
+                      type: string
+                      format: date
+                      example: "2023-02-12"
+                    contratante:
+                      type: string
+                      example: "Nova Empresa S.A"
+                    valor:
+                      type: number
+                      example: 23132
+                resumoExcel:
+                  type: string
+                  format: binary
+                resumoPdf:
+                  type: string
+                  format: binary
+                proposta:
+                  type: string
+                  format: binary
+                contrato:
+                  type: string
+                  format: binary
+      responses:
+        '200':
+          description: Atualizado com sucesso
+        '404':
+          description: Projeto não encontrado
+        '403':
+          description: Token de autenticação não autorizado
+
+  /projeto/excluir/{id}:
+    delete:
+      tags:
+        - Projeto
+      summary: Excluir um projeto
+      description: Deleta um projeto pelo seu ID.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+          description: ID do projeto a ser excluído
+        - in: header
+          name: Authorization
+          required: true
+          schema:
+            type: string
+          description: "Token de autenticação para acessar o endpoint. Formato: Bearer {token}"
+      responses:
+        '204':
+          description: Projeto excluído com sucesso
+        '404':
+          description: Projeto não encontrado
+        '403':
+          description: Token de autenticação não autorizado
+
+  /auth/login:
+    post:
+      tags:
+        - Administradores
+      summary: Realizar login
+      description: Autentica um usuário e retorna um token de acesso
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: user@email.com
+                password:
+                  type: string
+                  format: password
+                  example: password123
+              required:
+                - email
+                - password
+      responses:
+        '200':
+          description: Login bem-sucedido, token retornado
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+                    description: Token de autenticação JWT
+                    example: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+        '401':
+          description: Credenciais inválidas
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Credenciais inválidas"
+
+  /documento/listar:
+    get:
+      tags:
+        - Documento
+      summary: Exibir todos os documentos
+      description: Exibe todos os documentos
+      responses:
+        '200':
+          description: Lista de documentos retornada com sucesso
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    nome:
+                      type: string
+                    descricao:
+                      type: string
+
+  /documento/visualizar/{id}:
+    get:
+      tags:
+        - Documento
+      summary: Obter detalhes sobre um documento específico
+      description: Obtém detalhes de um documento pelo seu ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+          description: ID do documento
+      responses:
+        '200':
+          description: Detalhes do documento retornados com sucesso
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  nome:
+                    type: string
+                  descricao:
+                    type: string
+
+
+  /documento/excluir/{id}:
+    delete:
+      tags:
+        - Documento
+      summary: Excluir um documento
+      description: Deleta um documento pelo seu ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+          description: ID do documento a ser excluído
+        - in: header
+          name: Authorization
+          required: true
+          schema:
+            type: string
+          description: "Token de autenticação para acessar o endpoint. Formato: Bearer {token}"
+      responses:
+        '204':
+          description: Documento excluído com sucesso
+        '404':
+          description: Documento não encontrado
