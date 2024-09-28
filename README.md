@@ -29,12 +29,10 @@
 
 <h2> Entregas </h2>
 
-<h3> Cadastro de projetos </h3>
+<h3> Busca e visualização de projetos pelo usuário </h3>
 
-<h3> Visualização de dados do projeto </h3>
+https://github.com/user-attachments/assets/d781b36e-cebc-4fee-9636-185fd3ad808d
 
-<h3> Edição de dados e exclusão do projeto </h3> 
+<h3> Gerenciamento do projeto e login do administrador </h3>
 
-<h3> Busca de projetos utilizando o filtro </h3>
-
-<h3> Login do administrador </h3>
+https://github.com/user-attachments/assets/f9e47738-1a1a-42ec-8a94-ab079430d7bb
