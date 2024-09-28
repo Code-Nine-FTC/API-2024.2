@@ -50,13 +50,27 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em Sprint
 
 <p> Os links abaixo exibem os manuais de usuário, destinados para cada tipo de usuário do produto.</p>
 
-[Manual Coordenador]
+
+[Mapeamento de rotas (endpoinsts)](Docs/mapeamentoderotas.pdf)
+<br>
+<br>
+[Manual Usuário Comum]
 <p> Em desenvolvimento</p>
 [Manual Administrador]
 <p> Em desenvolvimento</p>
 
 <h2> 🏆 MVP </h2><a name="mvp"></a>
-<p> Em desenvolvimento</p>
+
+<h3> Primeira Sprint </h3>
+
+<h4> Busca e visualização de projetos pelo usuário </h4>
+
+https://github.com/user-attachments/assets/d781b36e-cebc-4fee-9636-185fd3ad808d
+
+<h4> Gerenciamento do projeto e login do administrador </h4>
+
+https://github.com/user-attachments/assets/f9e47738-1a1a-42ec-8a94-ab079430d7bb
+
 
 <h2> 📖 Requisitos do Cliente </h2><a name="requisitoscliente"></a>
 
@@ -80,12 +94,13 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em Sprint
 <br>
 
 # Proposta de Solução
-Para otimizar a gestão e apresentação dos dados dos projetos, propomos a implementação de um sistema que permita a padronização automática das informações. Nossa solução incluirá os seguintes recursos:
-	
-Padronização de Dados: Desenvolveremos um modelo uniforme para os dados dos projetos, garantindo que todas as informações sejam consistentes e de fácil compreensão.
+
+O site funcionará como um portal de transparência para pesquisas de pós-Graduandos, contendo uma ferramenta de busca para os projetos e um dashboard, ambos com filtragem para apresentação das informações dos projetos, onde o administrador poderá criar e editar os próprios projetos, otimizando a gestão. 
+Propomos a implementação de um sistema que permita a padronização automática das informações. Para otimizar a gestão e apresentação dos dados dos projetos. Nossa solução incluirá os seguintes recursos:
+
+Padronização de Dados: Desenvolveremos um modelo uniforme para os dados dos projetos, garantindo que todas as informações sejam consistentes e de fácil compreensão. 
 
 Integração com o Banco de Dados: Quando arquivos Excel ou PDF forem carregados no site, o sistema extrairá e processará os dados automaticamente, enviando-os diretamente para o banco de dados. Isso garantirá que todas as informações estejam sempre atualizadas e centralizadas.
-Estamos à disposição para discutir mais detalhes e personalizar a solução de acordo com suas necessidades específicas.
 
 <h2> 📒 Product Backlog </h2><a name="productbacklog"></a>
 
@@ -108,7 +123,7 @@ Estamos à disposição para discutir mais detalhes e personalizar a solução d
 
 | Sprint | Início     | Entrega    | Relatório            | Status |
 |--------|------------|------------|----------------------|--------|
-|   01   | 09/09/2024 | 29/09/2024 | <a href="https://github.com/Code-Nine-FTC/API-2024.2/tree/Sprint-1"> 1° Relatório </a> |   🔁   |
+|   01   | 09/09/2024 | 29/09/2024 | <a href="https://github.com/Code-Nine-FTC/API-2024.2/tree/Sprint-1"> 1° Relatório </a> |   ✅   |
 |   02   | 30/09/2024 | 20/10/2024 | <a> 2° Relatório </a> |   ❌   |
 |   03   | 21/10/2023 | 10/11/2024 | <a> 3° Relatório </a> |   ❌   |
 |   04   | 11/11/2023 | 01/12/2023 | <a> 4° Relatório </a> |   ❌   |
