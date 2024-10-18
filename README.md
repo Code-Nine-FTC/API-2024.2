@@ -73,6 +73,16 @@ https://github.com/user-attachments/assets/d781b36e-cebc-4fee-9636-185fd3ad808d
 
 https://github.com/user-attachments/assets/f9e47738-1a1a-42ec-8a94-ab079430d7bb
 
+h3> Segunda Sprint </h3>
+
+<h3> Busca de estátisticas dos projetos cadastrados por meio do dashboard </h3>
+
+<p> Em desenvolvimento </p>
+
+<h3> Implementação dos projetos do sistema legado na aplicação atual </h3>
+
+<p> Em desenvolvimento </p>
+
 
 <h2> 📖 Requisitos do Cliente </h2><a name="requisitoscliente"></a>
 
@@ -128,7 +138,7 @@ Integração com o Banco de Dados: Quando arquivos Excel ou PDF forem carregados
 | Sprint | Início     | Entrega    | Relatório            | Status |
 |--------|------------|------------|----------------------|--------|
 |   01   | 09/09/2024 | 29/09/2024 | <a href="https://github.com/Code-Nine-FTC/API-2024.2/tree/Sprint-1"> 1° Relatório </a> |   ✅   |
-|   02   | 30/09/2024 | 20/10/2024 | <a> 2° Relatório </a> |   ❌   |
+|   02   | 30/09/2024 | 20/10/2024 | <a href="https://github.com/Code-Nine-FTC/API-2024.2/tree/Sprint-2"> 2° Relatório </a> |   🔁   |
 |   03   | 21/10/2023 | 10/11/2024 | <a> 3° Relatório </a> |   ❌   |
 |   04   | 11/11/2023 | 01/12/2023 | <a> 4° Relatório </a> |   ❌   |
 
