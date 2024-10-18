@@ -14,8 +14,6 @@
 - [Requisitos do Cliente](#requisitoscliente)
 - [Product Backlog](#productbacklog)
 - [Sprints](#sprints)
-- [DoR e DoD](#doredod)
-- [Padrão de Commit](#padraocommit)
 - [Integrantes do grupo](#integrantes)
 
 <br>
@@ -73,13 +71,13 @@ https://github.com/user-attachments/assets/d781b36e-cebc-4fee-9636-185fd3ad808d
 
 https://github.com/user-attachments/assets/f9e47738-1a1a-42ec-8a94-ab079430d7bb
 
-h3> Segunda Sprint </h3>
+<h3> Segunda Sprint </h3>
 
-<h3> Busca de estátisticas dos projetos cadastrados por meio do dashboard </h3>
+<h4> Busca de estátisticas dos projetos cadastrados por meio do dashboard </h3>
 
 <p> Em desenvolvimento </p>
 
-<h3> Implementação dos projetos do sistema legado na aplicação atual </h3>
+<h4> Implementação dos projetos do sistema legado na aplicação atual </h3>
 
 <p> Em desenvolvimento </p>
 
@@ -116,21 +114,21 @@ Integração com o Banco de Dados: Quando arquivos Excel ou PDF forem carregados
 
 <h2> 📒 Product Backlog </h2><a name="productbacklog"></a>
 
-| Id | Prioridade | Tarefas | Estimativa | Requisito do Cliente | Critério de Aceitação |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Alta  | Como Administrador, eu quero criar um projeto para o site de tranparência, para que o Usuário possa visualizar todos os detalhes do projeto. | 5 | 2 | Somente o Administrador poderá criar novos projetos, devendo preencher todas as informações relevantes para garantir maior transparência ao Usuário. |
-| 2 | Alta  | Como Usuário, eu quero ter a possibilidade de buscar  projetos com um filtro, para que eu possa encontrar de forma mais precisa e rápida os projetos que atendem aos meus critérios de interesse. | 3 | 3 | Prévia com informações básicas do projeto para maior facilidade do Usuário ao visualizar o projeto |
-| 3 | Alta  | Como Administrador, eu quero ser capaz de enviar, editar ou excluir todos os projetos, para que eu consiga administrar o portal de transparência. | 3 | 2 | O Administrador deve ter todas as permissões para manipular o projeto |
-| 4 | Alta  | Como Administrador, eu quero realizar login no sistema utilizando e-mail e senha, para que eu possa acessar as funcionalidades administrativas de maneira segura. | 3 | 3 | O Administrador deve ter credenciais protegidas para conseguir efetuar o login sem vazamentos de dados |
-| 5 | Alta  | Como Usuário, eu quero poder visualizar os detalhes relacionado ao projeto, para que eu possa entender o andamento e o progresso do projeto de forma clara e objetiva. | 3 | 4 | Criação de uma página de visualizar um projeto em específico onde irá conter todas as informações referentes ao projeto |
-| 6 | Alta  | Como Administrador, eu quero poder visualizar os detalhes e os relatórios relacionado ao projeto, para que eu possa monitorar o andamento e manter o site atualizado sem modificar o conteúdo ou interferir nas decisões dos projetos. | 3 | 2 | Criação de uma página de visualizar um projeto em específico onde irá conter todas as informações referentes ao projeto |
-| 7 | Alta  | Como Administrador, eu quero transformar os dados da ferramenta legado, para que esses dados sejam compatíveis e utilizáveis no novo sistema, permitindo a continuidade dos processos e projetos. | 4 | 1 | As informações dos projetos do Site Legado deverá ser importado ao novo sistema |
-| 8 | Média | Como Administrador, eu quero ter acesso a um dashboard centralizado, para que eu possa visualizar de forma clara e rápida as informações mais relevantes sobre os projetos. | 5 | 4 | Dashboard contendo as informações da situação de todos os projetos |
-| 9 | Média | Como Administrador, eu quero importar projetos em formato PDF e/ou Excel dos dados da aplicação legada no novo banco de dados, para que todos os dados históricos e ativos sejam migrados corretamente para o novo sistema e possam ser acessados e gerenciados no portal atualizado. | 6 | 1 | As informações dos projetos do Site Legado deverá ser importado ao novo sistema |
-| 10 | Média | Como Administrador, eu quero conseguir visualizar oque foi alterado em um registro no site para conseguir visualizar as mudanças de um determinado projeto | 8 | 5 | A visualização do projeto deverá possuir um campo mostrando todos os campos que foi alterado mostrando a Informação anterior |
-| 11 | Média | Como Administrador, eu quero conseguir ocultar um determinado campo ou projeto do usuário comum porém o Administrador ainda tem acesso a essas informações para caso precise ocultar determinado projeto | 8 | 5 | No projeto deverá haver um botão para ocultar o projeto ou campos do projeto porém ainda mostrando ao Administrador na visualização | 
-| 12 | Média | Como Administrador, eu quero transformar as informações do Banco de Dados em arquivos do formato do PDF e/ou Excel, para que eu possa compartilhar, armazenar e analisar os dados de maneira eficiente e compatível com outras ferramentas. | 5 | 1 | Na página de visualização do projeto o Administrador poderá anexar um Arquivo PDF ou Excel |
-| 13 | Baixa | Como Usuário, eu quero que o site tenha um design responsivo, para que eu possa acessá-lo e utilizá-lo confortavelmente em qualquer dispositivo, seja desktop, tablet ou celular. | 2 | 3 | O site deverá ser responsível para Mobile, Desktop |
+| Id | Prioridade | Tarefas | Estimativa | Requisito do Cliente | Critério de Aceitação | Sprint |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | Alta  | Como Administrador, eu quero criar um projeto para o site de tranparência, para que o Usuário possa visualizar todos os detalhes do projeto. | 5 | 2 | Somente o Administrador poderá criar novos projetos, devendo preencher todas as informações relevantes para garantir maior transparência ao Usuário. | 1 |
+| 2 | Alta  | Como Usuário, eu quero ter a possibilidade de buscar  projetos com um filtro, para que eu possa encontrar de forma mais precisa e rápida os projetos que atendem aos meus critérios de interesse. | 3 | 3 | Prévia com informações básicas do projeto para maior facilidade do Usuário ao visualizar o projeto | 1 |
+| 3 | Alta  | Como Administrador, eu quero ser capaz de enviar, editar ou excluir todos os projetos, para que eu consiga administrar o portal de transparência. | 3 | 2 | O Administrador deve ter todas as permissões para manipular o projeto | 1 |
+| 4 | Alta  | Como Administrador, eu quero realizar login no sistema utilizando e-mail e senha, para que eu possa acessar as funcionalidades administrativas de maneira segura. | 3 | 3 | O Administrador deve ter credenciais protegidas para conseguir efetuar o login sem vazamentos de dados | 1 |
+| 5 | Alta  | Como Usuário, eu quero poder visualizar os detalhes relacionado ao projeto, para que eu possa entender o andamento e o progresso do projeto de forma clara e objetiva. | 3 | 4 | Criação de uma página de visualizar um projeto em específico onde irá conter todas as informações referentes ao projeto | 1 |
+| 6 | Alta  | Como Administrador, eu quero poder visualizar os detalhes e os relatórios relacionado ao projeto, para que eu possa monitorar o andamento e manter o site atualizado sem modificar o conteúdo ou interferir nas decisões dos projetos. | 3 | 2 | Criação de uma página de visualizar um projeto em específico onde irá conter todas as informações referentes ao projeto | 1 |
+| 7 | Alta  | Como Administrador, eu quero transformar os dados da ferramenta legado, para que esses dados sejam compatíveis e utilizáveis no novo sistema, permitindo a continuidade dos processos e projetos. | 4 | 1 | As informações dos projetos do Site Legado deverá ser importado ao novo sistema | 2 |
+| 8 | Média | Como Administrador, eu quero ter acesso a um dashboard centralizado, para que eu possa visualizar de forma clara e rápida as informações mais relevantes sobre os projetos. | 5 | 4 | Dashboard contendo as informações da situação de todos os projetos | 2 |
+| 9 | Média | Como Administrador, eu quero importar projetos em formato PDF e/ou Excel dos dados da aplicação legada no novo banco de dados, para que todos os dados históricos e ativos sejam migrados corretamente para o novo sistema e possam ser acessados e gerenciados no portal atualizado. | 6 | 1 | As informações dos projetos do Site Legado deverá ser importado ao novo sistema | 2 |
+| 10 | Média | Como Administrador, eu quero conseguir visualizar oque foi alterado em um registro no site para conseguir visualizar as mudanças de um determinado projeto | 8 | 5 | A visualização do projeto deverá possuir um campo mostrando todos os campos que foi alterado mostrando a Informação anterior | 3 |
+| 11 | Média | Como Administrador, eu quero conseguir ocultar um determinado campo ou projeto do usuário comum porém o Administrador ainda tem acesso a essas informações para caso precise ocultar determinado projeto | 8 | 5 | No projeto deverá haver um botão para ocultar o projeto ou campos do projeto porém ainda mostrando ao Administrador na visualização | 3 |
+| 12 | Média | Como Administrador, eu quero transformar as informações do Banco de Dados em arquivos do formato do PDF e/ou Excel, para que eu possa compartilhar, armazenar e analisar os dados de maneira eficiente e compatível com outras ferramentas. | 5 | 1 | Na página de visualização do projeto o Administrador poderá anexar um Arquivo PDF ou Excel | 4 |
+| 13 | Baixa | Como Usuário, eu quero que o site tenha um design responsivo, para que eu possa acessá-lo e utilizá-lo confortavelmente em qualquer dispositivo, seja desktop, tablet ou celular. | 2 | 3 | O site deverá ser responsível para Mobile, Desktop | 4 |
 <br>
 
 <h2> 📑 Sprints </h2><a name="sprints"></a>
@@ -144,67 +142,6 @@ Integração com o Banco de Dados: Quando arquivos Excel ou PDF forem carregados
 
 <br>
 </div>
-<h2 align="center"> DoR e DoD </h2><a name="doredod"></a>
-
-# Definition of Ready (DoR) 
-
-### User Stories
-
-- User story devidamente priorizado e tem valor para o cliente/usuário.
-- A descrição do User story está clara e compreensível para todos os membros da equipe
-
-### Critérios de Aceitação 
-
-- Critérios de aceitação estão definidos e revisados
-- Especificações técnicas ou requisitos adicionais, se necessários, estão definidos
-
-### Tarefas 
-
-- Recursos e permissões necessárias para implementação foram garantidos
-- O user story é pequeno o suficiente para ser concluído dentro de uma sprint
-
-
-<br>
-<br>
-
-# Definition of Done (DoD)
-
-### Código e Integração
-
-- O código foi implementado, revisado e integrado com sucesso no repositório principal.
-- O código foi revisado e aprovado por outro desenvolvedor ou pela equipe.
-
-### Critérios de Aceitação
-
-- Todos os critérios de aceitação definidos no user story foram atendidos.
-- A funcionalidade foi validada em ambientes diferentes (testes de responsividade, performance, dispositivos variados).
-- O user story foi revisado e aceito pelo Product Owner ou partes interessadas.
-
-### Testes e Qualidade
-
-- Os testes foram realizados, garantindo que o comportamento é o esperado.
-- Não há bugs conhecidos ou regressões, e o sistema permanece estável.
-
-### Documentação
-
-- A documentação técnica foi atualizada, caso seja necessário.
-- A documentação do usuário, se aplicável, foi criada ou atualizada (manual do usuário, guia de uso).
-
-### Implantação e Feedback
-
-- A funcionalidade foi implantada em produção, se aplicável, e está funcionando corretamente.
-- Feedback pós-implementação, se aplicável, foi coletado e considerado.
-
-<div align="center">
-<h2> Padrão de Commit </h2><a name="padraocommit"></a>
-
-| Prefixo |   Função  |  Exemplo  |
-| :------: | :--------: | :-------: |
-| Feat | Informar uma funcionalidade adiconada | feat: Função de verificação de CPF criada |
-| Fix | Informar um erro corrigido | fix: Erro de autenticação ao logar com dados vazios corrigido |
-| Style | Utilizado para formatações no código que não afetam as funcionalidades | style: Identações da classe de login do cliente corrigidas |
-| Docs | Utilizado para indicar adições à documentação do projeto | docs: Documentação dos endpoints adicionada |
-| Refactor | Utilizado para reestruturações no código, melhorando o código para uma versão mais limpa | refactor: Estrutura da tela de dashboard refeita, funções desnecessárias retiradas |
 
 <h2> 🙎 Integrantes do Grupo </h2><a name="integrantes"></a>
 
