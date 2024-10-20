@@ -28,7 +28,7 @@
 | 9 | Alta | Divisão da quantidade de projetos por meses no backend  | 3 | 8 |
 | 10 | Alta | Componente do campo de pesquisa do Dashboard | 1 | 8 |
 | 11 | Alta | Filtro do dashboard de quantidade de projetos por período de tempo | 2 | 8 |
-| 12 | Alta | FIltro do dashboard de quantidade de projetos por coordenador  | 2 | 8 |
+| 12 | Alta | Filtro do dashboard de quantidade de projetos por coordenador  | 2 | 8 |
 | 13 | Alta  | Filtro do dashboard de quantidade de projetos por categoria | 2 | 8 |
 | 14 | Alta | Filtro do dashboard de quantidade de projetos por intervalo de valor | 2 | 8 |
 | 15 | Média | Adicão de campo de integrantes na entidade do projeto | 1 | 1 |
