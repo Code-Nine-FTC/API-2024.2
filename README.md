@@ -2,7 +2,7 @@
 <br>
 <h1> Fatec Prof° Jessen Vidal - 2º Semestre de 2024 </h1>
 <p> Projeto desenvolvido por alunos do 3º semestre do curso de Desenvolvimento de Software Multiplataforma para o API (Aprendizagem por Projetos Integrados),
- com o objetivo de produzir um portal de transparência para uma fundação, visando a capacidade de inserção de dados dos projetos, busca utilizando filtros, portabilidade dos dados do sistema legado e a formulação de estatísticas acerca dos proejetos cadastrados sendo exibidas em gráficos e contendo filtros aplicáveis.  </p>
+ com o objetivo de produzir um portal de transparência para uma fundação, visando a capacidade de inserção de dados dos projetos, busca utilizando filtros, portabilidade dos dados do sistema legado e a formulação de estatísticas acerca dos projetos cadastrados sendo exibidas em gráficos e contendo filtros aplicáveis.  </p>
 <br>
 
 <h2> 🗂️ Índice </h2>
@@ -21,7 +21,7 @@
 <h2> 📋 Metodologia Utilizada </h2><a name="metodologias"></a>
 
 <p> O framework de Metodologia Ágil utilizado no produto foi o Scrum, um método ágil adaptativo, iterativo, flexível e eficaz.
-Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em Sprints. Para selecionar quais seriam as entregas das nossas Sprints, primeiro definimos nosso MVP, priorizando as tarefas que trariam maior entrega de valor para o cliente. Então, a partir das Tarefas foi construído o Backlog do Produto,  o qual foi aprovado pelo cliente e dividido em 4 Backlogs de Sprint. </p>
+Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em Sprints. Para selecionar quais seriam as entregas das nossas Sprints, primeiro definimos nosso MVP, priorizando as tarefas que trariam maior entrega de valor para o cliente. Então, a partir das Tarefas foi construído o Backlog do Produto, o qual foi aprovado pelo cliente e dividido em 4 Backlogs de Sprint. </p>
 
 <br>
 
@@ -48,20 +48,14 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em Sprint
 
 <h2> Manual do Usuário </h2><a name="manual"></a>
 
-<p> Os links abaixo exibem os manuais de usuário, destinados para cada tipo de usuário do produto.</p>
+<p> Nos links abaixo está disponível o Manual do Usuário e o Mapemeamento das rotas do projeto.</p>
 
-
-[Mapeamento de rotas (endpoinsts)](Docs/mapeamentoderotas.pdf)
+[Mapeamento de rotas (endpoints)](Docs/mapeamentoderotas.pdf)
 <br>
 <br>
-[Manual Usuário Comum]
-<p> Em desenvolvimento</p>
-[Manual Administrador]
-<p> Em desenvolvimento</p>
+[Manual do Usuário](DOcs/Manual%do%usuário.pdf)
 
 <h2> 🏆 MVP </h2><a name="mvp"></a>
-
-<h3> Primeira Sprint </h3>
 
 <h4> Busca e visualização de projetos pelo usuário </h4>
 
@@ -73,7 +67,7 @@ https://github.com/user-attachments/assets/f9e47738-1a1a-42ec-8a94-ab079430d7bb
 
 <h3> Segunda Sprint </h3>
 
-<h4> Busca de estátisticas dos projetos cadastrados por meio do dashboard </h3>
+<h4> Busca de estatísticas dos projetos cadastrados por meio do dashboard </h3>
 
 <p> Em desenvolvimento </p>
 
@@ -125,8 +119,8 @@ Integração com o Banco de Dados: Quando arquivos Excel ou PDF forem carregados
 | 7 | Alta  | Como Administrador, eu quero transformar os dados da ferramenta legado, para que esses dados sejam compatíveis e utilizáveis no novo sistema, permitindo a continuidade dos processos e projetos. | 4 | 1 | As informações dos projetos do Site Legado deverá ser importado ao novo sistema | 2 |
 | 8 | Média | Como Administrador, eu quero ter acesso a um dashboard centralizado, para que eu possa visualizar de forma clara e rápida as informações mais relevantes sobre os projetos. | 5 | 4 | Dashboard contendo as informações da situação de todos os projetos | 2 |
 | 9 | Média | Como Administrador, eu quero importar projetos em formato PDF e/ou Excel dos dados da aplicação legada no novo banco de dados, para que todos os dados históricos e ativos sejam migrados corretamente para o novo sistema e possam ser acessados e gerenciados no portal atualizado. | 6 | 1 | As informações dos projetos do Site Legado deverá ser importado ao novo sistema | 2 |
-| 10 | Média | Como Administrador, eu quero conseguir visualizar oque foi alterado em um registro no site para conseguir visualizar as mudanças de um determinado projeto | 8 | 5 | A visualização do projeto deverá possuir um campo mostrando todos os campos que foi alterado mostrando a Informação anterior | 3 |
-| 11 | Média | Como Administrador, eu quero conseguir ocultar um determinado campo ou projeto do usuário comum porém o Administrador ainda tem acesso a essas informações para caso precise ocultar determinado projeto | 8 | 5 | No projeto deverá haver um botão para ocultar o projeto ou campos do projeto porém ainda mostrando ao Administrador na visualização | 3 |
+| 10 | Média | Como Administrador, eu quero conseguir visualizar um registro de auditoría de todos os projetos cadastrados na aplicação para monitorar a veracidade e transparência do conteúdo do site. | 8 | 5 | A visualização do projeto deverá possuir um campo mostrando todos os valores que foram alterados, incluíndo seus dados prévios á alteração. | 3 |
+| 11 | Média | Como Administrador, eu quero ter a capacidade de ocultar um determinado campo ou projeto do usuário comum, porém, mantendo a visibilidade para usuários administrativos | 8 | 5 | No projeto deverá haver botões que possibilitem definir a visibilidade de seus respectivos campos. | 3 |
 | 12 | Média | Como Administrador, eu quero transformar as informações do Banco de Dados em arquivos do formato do PDF e/ou Excel, para que eu possa compartilhar, armazenar e analisar os dados de maneira eficiente e compatível com outras ferramentas. | 5 | 1 | Na página de visualização do projeto o Administrador poderá anexar um Arquivo PDF ou Excel | 4 |
 | 13 | Baixa | Como Usuário, eu quero que o site tenha um design responsivo, para que eu possa acessá-lo e utilizá-lo confortavelmente em qualquer dispositivo, seja desktop, tablet ou celular. | 2 | 3 | O site deverá ser responsível para Mobile, Desktop | 4 |
 <br>
@@ -136,9 +130,9 @@ Integração com o Banco de Dados: Quando arquivos Excel ou PDF forem carregados
 | Sprint | Início     | Entrega    | Relatório            | Status |
 |--------|------------|------------|----------------------|--------|
 |   01   | 09/09/2024 | 29/09/2024 | <a href="https://github.com/Code-Nine-FTC/API-2024.2/tree/Sprint-1"> 1° Relatório </a> |   ✅   |
-|   02   | 30/09/2024 | 20/10/2024 | <a href="https://github.com/Code-Nine-FTC/API-2024.2/tree/Sprint-2"> 2° Relatório </a> |   🔁   |
-|   03   | 21/10/2023 | 10/11/2024 | <a> 3° Relatório </a> |   ❌   |
-|   04   | 11/11/2023 | 01/12/2023 | <a> 4° Relatório </a> |   ❌   |
+|   02   | 30/09/2024 | 20/10/2024 | <a href="https://github.com/Code-Nine-FTC/API-2024.2/tree/Sprint-2"> 2° Relatório </a> |   ✅   |
+|   03   | 21/10/2024 | 10/11/2024 | <a> 3° Relatório </a> |   ❌   |
+|   04   | 11/11/2024 | 01/12/2024 | <a> 4° Relatório </a> |   ❌   |
 
 <br>
 </div>
