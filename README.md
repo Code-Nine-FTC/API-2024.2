@@ -42,8 +42,8 @@
 
 <h3> Busca de estátisticas dos projetos cadastrados por meio do dashboard </h3>
 
-<p> Em desenvolvimento </p>
+https://github.com/user-attachments/assets/648fb9d7-bfd4-474a-a268-b67b8cae73a1
 
 <h3> Implementação dos projetos do sistema legado na aplicação atual </h3>
 
-<p> Em desenvolvimento </p>
+https://github.com/user-attachments/assets/69b73a29-53dd-4ade-a45a-431baed0639b
