@@ -48,14 +48,16 @@ Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em Sprint
 
 <h2> Manual do Usuário </h2><a name="manual"></a>
 
-<p> Nos links abaixo está disponível o Manual do Usuário e o Mapemeamento das rotas do projeto.</p>
+<p> Nos links abaixo estão disponíveis: Manual do Usuário e Mapemeamento das rotas do projeto.</p>
 
-[Mapeamento de rotas (endpoints)](Docs/mapeamentoderotas.pdf)
+[Mapeamento de rotas (endpoints)](Docs/Mapeamento%20de%20rotas.pdf)
 <br>
 <br>
-[Manual do Usuário](DOcs/Manual%do%usuário.pdf)
+[Manual do Usuário](Docs/Manual%20do%20usuário.pdf)
 
 <h2> 🏆 MVP </h2><a name="mvp"></a>
+
+<h3> Primeira Sprint </h3>
 
 <h4> Busca e visualização de projetos pelo usuário </h4>
 
@@ -69,12 +71,11 @@ https://github.com/user-attachments/assets/f9e47738-1a1a-42ec-8a94-ab079430d7bb
 
 <h4> Busca de estatísticas dos projetos cadastrados por meio do dashboard </h3>
 
-<p> Em desenvolvimento </p>
+https://github.com/user-attachments/assets/648fb9d7-bfd4-474a-a268-b67b8cae73a1
 
 <h4> Implementação dos projetos do sistema legado na aplicação atual </h3>
 
-<p> Em desenvolvimento </p>
-
+https://github.com/user-attachments/assets/69b73a29-53dd-4ade-a45a-431baed0639b
 
 <h2> 📖 Requisitos do Cliente </h2><a name="requisitoscliente"></a>
 
