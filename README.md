@@ -82,10 +82,11 @@ https://github.com/user-attachments/assets/69b73a29-53dd-4ade-a45a-431baed0639b
 | Número	| Requisito do Cliente |
 | --- | --- |
 | 1 | Importar os dados dos projetos da ferramenta legado para o novo site |
-| 2	| Interface para cadastro de novos projetos onde esses possuirão apenas campos relacionados a planos de trabalho, contratos e termos aditivos |
+| 2	| Interface para cadastro de novos projetos, bolsistas, Material, parceiros onde esses possuirão apenas campos relacionados a planos de trabalho, contratos e termos aditivos |
 | 3	| Um mecanismo de busca para os projetos de uma forma que não separe por categoria como é feito no site antigo |
 | 4	| Criação de uma credencial pro usuário Administrador, que terá todas as permissões do site |
 | 5	| Relatórios/dashboards de projetos desenvolvidos, com diferentes tipos de filtros |
+| 6 | Um sistema de prestação de contas.
 
 <h3> Requisitos não funcionais </h3>
 
@@ -122,13 +123,14 @@ Integração com o Banco de Dados: Quando arquivos Excel ou PDF forem carregados
 | 9 | Média | Como Administrador, eu quero importar projetos em formato PDF e/ou Excel dos dados da aplicação legada no novo banco de dados, para que todos os dados históricos e ativos sejam migrados corretamente para o novo sistema e possam ser acessados e gerenciados no portal atualizado. | 6 | 1 | As informações dos projetos do Site Legado deverá ser importado ao novo sistema | 2 |
 | 10 | Média | Como Administrador, eu quero conseguir visualizar um registro de auditoría de todos os projetos cadastrados na aplicação para monitorar a veracidade e transparência do conteúdo do site. | 8 | 5 | A visualização do projeto deverá possuir um campo mostrando todos os valores que foram alterados, incluíndo seus dados prévios á alteração. | 3 |
 | 11 | Média | Como Administrador, eu quero ter a capacidade de ocultar um determinado campo ou projeto do usuário comum, porém, mantendo a visibilidade para usuários administrativos | 8 | 5 | No projeto deverá haver botões que possibilitem definir a visibilidade de seus respectivos campos. | 3 |
-| 12 | Baixa | Como Usuário, eu quero que o site tenha um design responsivo, para que eu possa acessá-lo e utilizá-lo confortavelmente em qualquer dispositivo, seja desktop, tablet ou celular. | 2 | 3 | O site deverá ser responsível para Mobile, Desktop | 3 |
-| 13 | Média | Como Administrador, eu quero transformar as informações do Banco de Dados em arquivos do formato do PDF e/ou Excel, para que eu possa compartilhar, armazenar e analisar os dados de maneira eficiente e compatível com outras ferramentas. | 5 | 1 | Na página de visualização do projeto o Administrador poderá anexar um Arquivo PDF ou Excel | 4 |
-| 14 | Alta | Como Administrador, eu quero adicionar as receitas em um determinado projeto | 5 | 1 | A receita do projeto deverá ter os campos de valor, data, anexo de rubrica, parceiro e CNPJ | 4 |
-| 15 | Alta | Como Administrador, eu quero adicionar as despesas de um determinado projeto | 5 | 1 | A receita do projeto deverá ter os campos de valor, data, anexo de nota fiscal, CNPJ, Fornecedor, Status do Material | 4 |
-| 16 | Média | Como Administrador, eu quero cadastrar Bolsistas e lista-los em uma interface para avalia-los | 5 | 1 | O cadastro deverá ter todos os dados do Bolsista a área de Atuação, o tipo de bolsa e duração | 4 |
-| 17 | Alta | Como Administrador, eu quero cadastrar parceiros para que possa visualizar todos os parceiros e registrar nas receitas dos projetos | 5 | 1 | Deverá ter um Cadastro de todos os parceiros onde poderá colocar a o parceiro nas receitas | 4 |
-| 18 | Alta | Como Administrador, eu quero uma interface de prestação de contar para que possa entender todos os gastos e receitas de todos os projetos da plataforma | 5 | 1 | Essa interface deverá possuir todos os gastos e receitas e os detalhes das mesmas para poder administradar os projetos com maior eficiência | 4 |
+| 12 | Média | Como Administrador, eu quero um sistema que notifique projetos que não foram concluidos e estão próximos de acabar ou atrasados para que eu possa acompanhar o desenvolvimento do mesmo | 5 | 5 | A notificação deverá ser um mecanismo na NavBar onde mostra ps projetos que estão próximos da data final ou atrasados | 3 |
+| 13 | Baixa | Como Usuário, eu quero que o site tenha um design responsivo, para que eu possa acessá-lo e utilizá-lo confortavelmente em qualquer dispositivo, seja desktop, tablet ou celular. | 2 | 3 | O site deverá ser responsível para Mobile, Desktop | 3 |
+| 14 | Média | Como Administrador, eu quero transformar as informações do Banco de Dados em arquivos do formato do PDF e/ou Excel, para que eu possa compartilhar, armazenar e analisar os dados de maneira eficiente e compatível com outras ferramentas. | 5 | 1 | Na página de visualização do projeto o Administrador poderá anexar um Arquivo PDF ou Excel | 4 |
+| 15 | Alta | Como Administrador, eu quero adicionar as receitas em um determinado projeto | 5 | 6 | A receita do projeto deverá ter os campos de valor, data, anexo de rubrica, parceiro e CNPJ | 4 |
+| 16 | Alta | Como Administrador, eu quero adicionar as despesas de um determinado projeto | 5 | 6 | A receita do projeto deverá ter os campos de valor, data, anexo de nota fiscal, CNPJ, Fornecedor, Status do Material | 4 |
+| 17 | Média | Como Administrador, eu quero cadastrar Bolsistas e lista-los em uma interface para avalia-los | 5 | 2 | O cadastro deverá ter todos os dados do Bolsista a área de Atuação, o tipo de bolsa e duração | 4 |
+| 18 | Alta | Como Administrador, eu quero cadastrar parceiros para que possa visualizar todos os parceiros e registrar nas receitas dos projetos | 5 | 2 | Deverá ter um Cadastro de todos os parceiros onde poderá colocar a o parceiro nas receitas | 4 |
+| 19 | Alta | Como Administrador, eu quero uma interface de prestação de contas para que possa entender todos os gastos e receitas de todos os projetos da plataforma | 5 | 6 | Essa interface deverá possuir todos os gastos e receitas e os detalhes das mesmas para poder administradar os projetos com maior eficiência | 4 |
 
 <br>
 
