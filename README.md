@@ -77,6 +77,28 @@ https://github.com/user-attachments/assets/648fb9d7-bfd4-474a-a268-b67b8cae73a1
 
 https://github.com/user-attachments/assets/69b73a29-53dd-4ade-a45a-431baed0639b
 
+<h3> Terceira Sprint </h3>
+
+<h3> Interface de Auditoria dos projetos </h3>
+
+https://github.com/user-attachments/assets/4a76801a-91d8-459c-bcec-97240a3402ab
+
+<h3> Sistema de ocultação de campos na visualização dos projetos por usuários comuns </h3>
+
+https://github.com/user-attachments/assets/50ebd4d3-dab1-4be0-9337-cc07cde5cd1d
+
+<h3> Busca de projetos por palavras-chave </h3>
+
+https://github.com/user-attachments/assets/57657dc7-43a0-48f9-b896-b2578d24274f
+
+<h3> Verificação e notificação de projetos que estão próximos do vencimento ou em atraso </h3>
+
+https://github.com/user-attachments/assets/0ec1ab46-4d24-47d1-9e96-bfb3e64d48cd
+
+<h3> Paginação da lista de resultados da busca de projetos </h3>
+
+https://github.com/user-attachments/assets/cdf3a748-92a2-43c3-8248-f527fa0ea04b
+
 <h2> 📖 Requisitos do Cliente </h2><a name="requisitoscliente"></a>
 
 | Número	| Requisito do Cliente |
@@ -123,14 +145,14 @@ Integração com o Banco de Dados: Quando arquivos Excel ou PDF forem carregados
 | 9 | Média | Como Administrador, eu quero importar projetos em formato PDF e/ou Excel dos dados da aplicação legada no novo banco de dados, para que todos os dados históricos e ativos sejam migrados corretamente para o novo sistema e possam ser acessados e gerenciados no portal atualizado. | 6 | 1 | As informações dos projetos do Site Legado deverá ser importado ao novo sistema | 2 |
 | 10 | Média | Como Administrador, eu quero conseguir visualizar um registro de auditoría de todos os projetos cadastrados na aplicação para monitorar a veracidade e transparência do conteúdo do site. | 8 | 5 | A visualização do projeto deverá possuir um campo mostrando todos os valores que foram alterados, incluíndo seus dados prévios á alteração. | 3 |
 | 11 | Média | Como Administrador, eu quero ter a capacidade de ocultar um determinado campo ou projeto do usuário comum, porém, mantendo a visibilidade para usuários administrativos | 8 | 5 | No projeto deverá haver botões que possibilitem definir a visibilidade de seus respectivos campos. | 3 |
-| 12 | Média | Como Administrador, eu quero um sistema que notifique projetos que não foram concluidos e estão próximos de acabar ou atrasados para que eu possa acompanhar o desenvolvimento do mesmo | 5 | 5 | A notificação deverá ser um mecanismo na NavBar onde mostra ps projetos que estão próximos da data final ou atrasados | 3 |
+| 12 | Média | Como Administrador, eu quero um sistema que notifique projetos que não foram concluidos e estão próximos de acabar ou atrasados para que eu possa acompanhar o desenvolvimento dos mesmos. | 5 | 5 | A notificação deverá ser um mecanismo na NavBar onde serão exibidos os projetos que estão próximos da data final ou em atraso. | 3 |
 | 13 | Baixa | Como Usuário, eu quero que o site tenha um design responsivo, para que eu possa acessá-lo e utilizá-lo confortavelmente em qualquer dispositivo, seja desktop, tablet ou celular. | 2 | 3 | O site deverá ser responsível para Mobile, Desktop | 3 |
-| 14 | Média | Como Administrador, eu quero transformar as informações do Banco de Dados em arquivos do formato do PDF e/ou Excel, para que eu possa compartilhar, armazenar e analisar os dados de maneira eficiente e compatível com outras ferramentas. | 5 | 1 | Na página de visualização do projeto o Administrador poderá anexar um Arquivo PDF ou Excel | 4 |
-| 15 | Alta | Como Administrador, eu quero adicionar as receitas em um determinado projeto | 5 | 6 | A receita do projeto deverá ter os campos de valor, data, anexo de rubrica, parceiro e CNPJ | 4 |
-| 16 | Alta | Como Administrador, eu quero adicionar as despesas de um determinado projeto | 5 | 6 | A receita do projeto deverá ter os campos de valor, data, anexo de nota fiscal, CNPJ, Fornecedor, Status do Material | 4 |
-| 17 | Média | Como Administrador, eu quero cadastrar Bolsistas e lista-los em uma interface para avalia-los | 5 | 2 | O cadastro deverá ter todos os dados do Bolsista a área de Atuação, o tipo de bolsa e duração | 4 |
-| 18 | Alta | Como Administrador, eu quero cadastrar parceiros para que possa visualizar todos os parceiros e registrar nas receitas dos projetos | 5 | 2 | Deverá ter um Cadastro de todos os parceiros onde poderá colocar a o parceiro nas receitas | 4 |
-| 19 | Alta | Como Administrador, eu quero uma interface de prestação de contas para que possa entender todos os gastos e receitas de todos os projetos da plataforma | 5 | 6 | Essa interface deverá possuir todos os gastos e receitas e os detalhes das mesmas para poder administradar os projetos com maior eficiência | 4 |
+| 14 | Média | Como Administrador, eu quero transformar as informações do Banco de Dados em arquivos no formato do PDF e/ou Excel, para que eu possa compartilhar, armazenar e analisar os dados de maneira eficiente e compatível com outras ferramentas. | 5 | 1 | Na página de visualização do projeto o Administrador poderá anexar um Arquivo PDF ou Excel. | 4 |
+| 15 | Alta | Como Administrador, eu quero adicionar as receitas em um determinado projeto. | 5 | 6 | A receita do projeto deverá ter os campos de valor, data, anexo de rubrica, parceiro e CNPJ. | 4 |
+| 16 | Alta | Como Administrador, eu quero adicionar as despesas de um determinado projeto. | 5 | 6 | A receita do projeto deverá ter os campos de valor, data, anexo de nota fiscal, CNPJ, Fornecedor, Status do Material. | 4 |
+| 17 | Média | Como Administrador, eu quero cadastrar Bolsistas e lista-los em uma interface para avalia-los. | 5 | 2 | O cadastro deverá ter todos os dados do Bolsista, a área de Atuação, o tipo de bolsa e duração. | 4 |
+| 18 | Alta | Como Administrador, eu quero cadastrar parceiros para que possa visualiza-los e realizar o registro dos mesmos nas receitas dos projetos. | 5 | 2 | Deverá ter um cadastro de todos os parceiros onde será possível inserir o pareceiro nas receitas. | 4 |
+| 19 | Alta | Como Administrador, eu quero uma interface de prestação de contas para que seja possível o entendimento dos gastos e receitas de todos os projetos da plataforma. | 5 | 6 | Essa interface deverá possuir todos os gastos e receitas e seus detalhes para poder administradar os projetos com maior eficiência. | 4 |
 
 <br>
 
