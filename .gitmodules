@@ -1,13 +1,13 @@
 [submodule "API-2024.2-Front-End"]
 	path = API-2024.2-Front-End
 	url = https://github.com/Code-Nine-FTC/API-2024.2-Front-End
-	branch = Sprint-3
+	branch = main
 [submodule "API-2024.2-Back-End"]
 	path = API-2024.2-Back-End
 	url = https://github.com/Code-Nine-FTC/API-2024.2-Back-End
-	branch = Sprint-3
+	branch = main
 [submodule "API-2024.2-Banco-de-Dados"]
 	path = API-2024.2-Banco-de-Dados
 	url = https://github.com/Code-Nine-FTC/API-2024.2-Banco-de-Dados
-	branch = Sprint-3
+	branch = main
 
