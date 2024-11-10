@@ -31,8 +31,8 @@
 | 11 | Alta | Adicionar propriedade de campos ocultos na entidade do projeto | 2 | 11 |
 | 12 | Média | Atualização da função de busca de projetos para utilizar palavras-chave  | 5 | 2 |
 | 13 | Média  | Mudança do visual da barra de pesquisa para utilizar palavras-chave | 3 | 2 |
-| 14 | Média | Função que verifica projetos próximos do vencimento ou que estão em atraso | 5 | 13 |
-| 15 | Média | Componente visual que exibe notificações de projetos próximos do vencimento ou em atraso | 5 | 13 |
+| 14 | Média | Função que verifica projetos próximos do vencimento ou que estão em atraso | 5 | 12 |
+| 15 | Média | Componente visual que exibe notificações de projetos próximos do vencimento ou em atraso | 5 | 12 |
 | 16 | Média | Remoção da capacidade de editar a referência do projeto | 3 | 3 |
 | 17 | Baixa | Páginação da lista de resultados da busca de projetos | 5 | 2 |
 | 18 | Baixa  | Normalização dos campos de valor retornados na raspagem de dados do sistema legado | 5 | 7 |
