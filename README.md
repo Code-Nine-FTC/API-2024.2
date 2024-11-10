@@ -162,7 +162,7 @@ Integração com o Banco de Dados: Quando arquivos Excel ou PDF forem carregados
 |--------|------------|------------|----------------------|--------|
 |   01   | 09/09/2024 | 29/09/2024 | <a href="https://github.com/Code-Nine-FTC/API-2024.2/tree/Sprint-1"> 1° Relatório </a> |   ✅   |
 |   02   | 30/09/2024 | 20/10/2024 | <a href="https://github.com/Code-Nine-FTC/API-2024.2/tree/Sprint-2"> 2° Relatório </a> |   ✅   |
-|   03   | 21/10/2024 | 10/11/2024 | <a href="https://github.com/Code-Nine-FTC/API-2024.2/tree/Sprint-2"> 3° Relatório </a> |   ✅   |
+|   03   | 21/10/2024 | 10/11/2024 | <a href="https://github.com/Code-Nine-FTC/API-2024.2/tree/Sprint-3"> 3° Relatório </a> |   ✅   |
 |   04   | 11/11/2024 | 01/12/2024 | <a> 4° Relatório </a> |   ❌   |
 
 <br>
