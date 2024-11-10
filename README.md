@@ -41,22 +41,24 @@
 
 <h2> Entregas </h2>
 
-<p> Em desenvolvimento </p>
+<h3> Interface de Auditoria dos projetos </h3>
 
-https://github.com/user-attachments/assets/648fb9d7-bfd4-474a-a268-b67b8cae73a1
+https://github.com/user-attachments/assets/4a76801a-91d8-459c-bcec-97240a3402ab
 
 <h3> Sistema de ocultação de campos na visualização dos projetos por usuários comuns </h3>
 
-<p> Em desenvolvimento </p>
+https://github.com/user-attachments/assets/50ebd4d3-dab1-4be0-9337-cc07cde5cd1d
 
 <h3> Busca de projetos por palavras-chave </h3>
 
-<p> Em desenvolvimento </p>
+https://github.com/user-attachments/assets/57657dc7-43a0-48f9-b896-b2578d24274f
 
 <h3> Verificação e notificação de projetos que estão próximos do vencimento ou em atraso </h3>
 
-<p> Em desenvolvimento </p>
+https://github.com/user-attachments/assets/0ec1ab46-4d24-47d1-9e96-bfb3e64d48cd
 
 <h3> Paginação da lista de resultados da busca de projetos </h3>
 
-<p> Em desenvolvimento </p>
+https://github.com/user-attachments/assets/cdf3a748-92a2-43c3-8248-f527fa0ea04b
+
+
