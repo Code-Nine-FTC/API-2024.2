@@ -99,6 +99,28 @@ https://github.com/user-attachments/assets/0ec1ab46-4d24-47d1-9e96-bfb3e64d48cd
 
 https://github.com/user-attachments/assets/cdf3a748-92a2-43c3-8248-f527fa0ea04b
 
+<h3> Gerenciamento de convênios </h3>
+
+<p> Em desenvolvimento </p>
+
+<h3> Gerenciamento de parceiros </h3>
+
+<p> Em desenvolvimento </p>
+
+<h3> Gerenciamento de Classificações e demandas </h3>
+
+<p> Em desenvolvimento </p>
+
+<h3> Cadastro das entidades novas ao criar um projeto </h3>
+
+<p> Em desenvolvimento </p>
+
+<h3> Relatórios de valores arrecadados por coordenador e projetos por tipo de demanda no dashboard </h3>
+
+<p> Em desenvolvimento </p>
+
+<h3> Exportação dos relatórios do dashboard para PDF e Excel </h3>
+
 <h2> 📖 Requisitos do Cliente </h2><a name="requisitoscliente"></a>
 
 | Número	| Requisito do Cliente |
