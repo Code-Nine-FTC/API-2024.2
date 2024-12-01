@@ -161,7 +161,7 @@ Integração com o Banco de Dados: Quando arquivos Excel ou PDF forem carregados
 |   01   | 09/09/2024 | 29/09/2024 | <a href="https://github.com/Code-Nine-FTC/API-2024.2/tree/Sprint-1"> 1° Relatório </a> |   ✅   |
 |   02   | 30/09/2024 | 20/10/2024 | <a href="https://github.com/Code-Nine-FTC/API-2024.2/tree/Sprint-2"> 2° Relatório </a> |   ✅   |
 |   03   | 21/10/2024 | 10/11/2024 | <a href="https://github.com/Code-Nine-FTC/API-2024.2/tree/Sprint-3"> 3° Relatório </a> |   ✅   |
-|   04   | 11/11/2024 | 01/12/2024 | <a> 4° Relatório </a> |   ❌   |
+|   04   | 11/11/2024 | 01/12/2024 | <a href="https://github.com/Code-Nine-FTC/API-2024.2/tree/Sprint-4"> |   ✅   |
 
 <br>
 </div>
@@ -178,4 +178,5 @@ Integração com o Banco de Dados: Quando arquivos Excel ou PDF forem carregados
 | <img src="https://avatars.githubusercontent.com/u/111767391?v=4" alt="foto de perfil" height="64px" width="64px">         |   Ivan Suiyama |  Developer        | <a href="https://github.com/IvanSuiyama"><img src="https://img.shields.io/badge/GitHub-13196a?style=for-the-badge&logo=github&logoColor=white">         | <a href="https://www.linkedin.com/in/ivan-silva-248042186/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>         |
 | <img src="https://avatars.githubusercontent.com/u/173160383?v=4" alt="foto de perfil" height="64px" width="64px">         |   Filipe Colla  |  Developer        | <a href="https://github.com/collafilipe"><img src="https://img.shields.io/badge/GitHub-13196a?style=for-the-badge&logo=github&logoColor=white">         | <a href="https://www.linkedin.com/in/filipe-colla/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>         |
 | <img src="https://avatars.githubusercontent.com/u/128647638?v=4" alt="foto de perfil" height="64px" width="64px">         |   Arthur Karnas  |  Developer        | <a href="https://github.com/Karnas01"><img src="https://img.shields.io/badge/GitHub-13196a?style=for-the-badge&logo=github&logoColor=white">         | <a href="https://www.linkedin.com/in/arthur-karnas-da-rocha-b90433271/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>         |
+| <img src="https://avatars.githubusercontent.com/u/180947430?v=4" alt="foto de perfil" height="64px" width="64px">         |   Arthur Ramos  |  Developer        | <a href="https://github.com/Henrique-GRamos"><img src="https://img.shields.io/badge/GitHub-13196a?style=for-the-badge&logo=github&logoColor=white">         | <a href="https://www.linkedin.com/in/henriquegramos/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>         |
 
