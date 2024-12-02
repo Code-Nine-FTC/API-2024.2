@@ -47,24 +47,25 @@
 
 <h3> Gerenciamento de convênios </h3>
 
-<p> Em desenvolvimento </p>
+https://github.com/user-attachments/assets/9134b32d-95bc-498b-b8c2-33df7756273e
 
 <h3> Gerenciamento de parceiros </h3>
 
-<p> Em desenvolvimento </p>
+https://github.com/user-attachments/assets/9fc5083d-9408-49cf-9f7e-b64107be55f2
 
 <h3> Gerenciamento de Classificações e demandas </h3>
 
-<p> Em desenvolvimento </p>
+https://github.com/user-attachments/assets/0a616f07-bcfd-4512-ab34-2f5cea059212
 
 <h3> Cadastro das entidades novas ao criar um projeto </h3>
 
-<p> Em desenvolvimento </p>
+https://github.com/user-attachments/assets/14c09d95-97ff-49c8-aab8-6cdfa5fb885c
 
-<h3> Relatórios de valores arrecadados por coordenador e projetos por tipo de demanda no dashboard </h3>
+<h3> Relatórios de valores arrecadados por coordenador e projetos por tipo de demanda no dashboard e Exportação dos relatórios do dashboard para PDF e Excel </h3>
 
-<p> Em desenvolvimento </p>
+https://github.com/user-attachments/assets/f607dcf4-ddeb-4fab-acac-af3db00acc96
 
-<h3> Exportação dos relatórios do dashboard para PDF e Excel </h3>
+
+
 
 
